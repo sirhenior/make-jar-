@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "unstable_farlands",
+  "version": "${version}",
+  "name": "Unstable",
+  "description": "Unstable SMP style far-lands biomes (Red Plains, Wavy Lands, Dark Forest, Fabric, Skyscrapers, Rainbow Forest, Ravager Desert, Mythical Forest, Decayed Labyrinth, Natural Maze) laid out along +Z, plus the Underworld dimension.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": [ "com.unstablefarlands.UnstableFarlands" ] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
